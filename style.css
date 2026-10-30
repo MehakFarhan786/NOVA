@@ -1,0 +1,825 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+/*navbar*/
+
+li {
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.qq {
+    margin-left: 250px;
+}
+
+.qq li {
+    padding: 25px;
+    color: gray;
+    font-weight: 600;
+
+
+}
+
+.ww {
+    font-weight: 600;
+}
+
+.pl {
+    padding-left: 150px;
+    color: gray;
+    font-weight: 600;
+}
+
+.red {
+    color: rgb(194, 132, 108);
+}
+
+.start {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+/*second page*/
+.pic {
+    display: inline-block;
+    margin-top: 40px;
+    height: 450px;
+    float: right;
+    margin-right: 15px;
+}
+
+.para {
+    float: left;
+    padding-left: 40px;
+    margin-top: 75px;
+
+}
+
+.p {
+    color: rgb(194, 132, 108);
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.or {
+    color: rgb(194, 132, 108);
+}
+
+.p {
+    color: rgb(194, 132, 108);
+
+}
+
+.a {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-left: 20px;
+
+}
+
+.meet {
+    color: black;
+    background-color: white;
+    border: 1%;
+    border-color: gray;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.hi {
+    margin-top: 45px;
+}
+
+/* Third section */
+.container {
+    background-color: black;
+    color: white;
+    clear: both;
+    width: 100%;
+    min-height: 60px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 70px;
+
+}
+
+/*fourth section*/
+.container2 {
+
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+
+.dog {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.git {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 30, 30, 0.425);
+}
+.you{
+    margin-top: 50px;
+    color:rgb(194, 132, 108);
+    
+}
+.whi{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.din{
+    
+    font-size: 55px;
+    font-weight: 400;
+}
+.get{
+      color:black;
+    background-color: rgb(194, 132, 108);
+    border: 1px solid  rgb(194, 132, 108) ;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.mm{
+    color: white;
+    background-color: black;
+    border: 1%;
+    border-color: gray;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.did {
+    margin-top: 45px;
+}
+/* Footer section */
+.pint {
+    width: 88%;
+    margin: 70px auto 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+/* Footer links */
+.footer-links {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.left-links,
+.right-links {
+    display: inline-block;
+    gap: 30px;
+}
+
+.footer-links a {
+    color: #b5b5b5;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+/* Horizontal line */
+.footer-line {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    width: 100%;
+    margin: 0;
+}
+
+/* Bottom footer text */
+.footer-bottom {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    color: #b5b5b5;
+    font-size: 16px;
+    
+}
+.gii{
+    padding-left: 350px;
+}
+.ra{
+    padding-left: 390px;
+}
+
+.services {
+    width: 100%;
+    background-color: #fdfcf9;
+    padding: 100px 3.7%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Heading Section */
+
+.service-heading {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.service-heading h2 {
+    display: inline-block;
+    width: 32%;
+    vertical-align: middle;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+    color: #111;
+}
+
+.service-heading p {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    color: #888;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.service-heading a {
+    display: inline-block;
+    width: 22%;
+    vertical-align: middle;
+    text-align: right;
+    color: #111;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+/* Service Cards */
+
+.service-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 23.7%;
+    min-height: 260px;
+    margin-right: 1%;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid #dedbd5;
+    border-radius: 28px;
+    background-color: #fdfcf9;
+}
+
+.service-card:last-child {
+    margin-right: 0;
+}
+
+
+/* Icons */
+
+.icon-row {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.service-icon {
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #e8ddd4;
+    border-radius: 50%;
+    color: #c2846c;
+    font-size: 26px;
+}
+
+.arrow {
+    display: inline-block;
+    float: right;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #dedbd5;
+    border-radius: 50%;
+    color: #222;
+    font-size: 22px;
+}
+
+
+/* Card Heading */
+
+.service-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+    margin: 15px 0;
+}
+
+.service-card h3 span {
+    color: #777;
+    font-weight: 400;
+    margin-right: 8px;
+}
+
+
+/* Card Description */
+
+.service-card p {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #888;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+/* Main Section */
+
+.people-section {
+    width: 100%;
+    padding: 70px 4.3%;
+    background-color: #fdfcf9;
+    font-size: 0;
+}
+
+
+/* Left Side Image */
+
+.people-image-box {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.people-image {
+    display: block;
+    width: 100%;
+    height: 635px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 40px;
+}
+
+
+/* Right Side Content */
+
+.people-content {
+    display: inline-block;
+    width: 43%;
+    margin-left: 5%;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+
+/* Main Heading */
+
+.people-content h1 {
+    margin: 0 0 26px;
+    font-size: 52px;
+    line-height: 1.18;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    color: #111111;
+}
+
+
+/* Description */
+
+.description {
+    margin: 0 0 22px;
+    font-size: 20px;
+    line-height: 1.85;
+    font-weight: 400;
+    color: #888888;
+}
+
+
+/* Team Information */
+
+.team-info {
+    width: 100%;
+    margin-bottom: 35px;
+    white-space: nowrap;
+}
+
+
+/* Team Avatars */
+
+.team-avatars {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.team-avatars img {
+    display: inline-block;
+    width: 61px;
+    height: 61px;
+    object-fit: cover;
+    border: 2px solid #fdfcf9;
+    border-radius: 50%;
+    margin-right: -17px;
+    vertical-align: middle;
+}
+
+
+/* Team Number */
+
+.team-number {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-right: 12px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #111111;
+}
+
+
+/* Team Text */
+
+.team-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #444444;
+}
+
+
+/* Features */
+
+.features {
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+
+/* Individual Feature */
+
+.feature-item {
+    display: block;
+    margin-bottom: 14px;
+}
+
+
+/* Arrow Circle */
+
+.feature-arrow {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #c99578;
+    color: #222222;
+    font-size: 25px;
+}
+
+
+/* Feature Text */
+
+.feature-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    font-size: 20px;
+    color: #333333;
+}
+
+
+/* Meet the Team Button */
+
+.team-button-box {
+    margin-top: 35px;
+}
+
+.team-button {
+    display: inline-block;
+    padding: 17px 27px;
+    border-radius: 50px;
+    background-color: #111111;
+    border: 1px solid #111111;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+/* Button Hover */
+
+.team-button:hover {
+    background-color: #c99578;
+    border-color: #c99578;
+    color: #111111;
+}
+
+/* Main Section */
+
+.work-section {
+    width: 100%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+
+/* Heading Section */
+
+.work-heading {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+
+/* Left Heading */
+
+.heading-left {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+}
+
+.heading-left h1 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.15;
+    margin: 0;
+}
+
+
+/* Right Description */
+
+.heading-right {
+    display: inline-block;
+    width: 63%;
+    vertical-align: top;
+    text-align: right;
+}
+
+.heading-right p {
+    color: #858585;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 15px 0 18px;
+}
+
+.work-link {
+    display: inline-block;
+    color: #222222;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.work-link span {
+    font-size: 22px;
+    margin-left: 8px;
+}
+
+
+/* Project Cards Container */
+
+.work-cards {
+    width: 100%;
+    font-size: 0;
+}
+
+
+/* Individual Project Card */
+
+.work-card {
+    display: inline-block;
+    width: calc(50% - 12px);
+    height: 500px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 22px;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+/* Second Card Spacing */
+
+.work-card:nth-child(2) {
+    margin-left: 12px;
+    margin-right: 0;
+}
+
+
+/* Project Images */
+
+.work-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* Dark Overlay */
+
+.card-overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 35%;
+    
+}
+
+
+/* Card Title */
+
+.work-card h2 {
+    position: absolute;
+    left: 20px;
+    bottom: 8px;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    margin: 0;
+    z-index: 2;
+}
+
+/* General Styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffefa;
+    color: #171717;
+}
+
+
+/* Main Reviews Section */
+
+.reviews-section {
+    width: 100%;
+    padding: 20px 0 50px;
+    box-sizing: border-box;
+}
+
+
+/* Heading */
+
+.reviews-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.reviews-heading h1 {
+    font-size: 42px;
+    font-weight: 600;
+    margin: 0 0 22px;
+}
+
+.reviews-heading p {
+    color: #858585;
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+
+/* Reviews Container */
+
+.reviews-container {
+    width: 84%;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+
+/* Three Columns */
+
+.review-column {
+    display: inline-block;
+    width: 31%;
+    margin-right: 2%;
+    vertical-align: top;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.review-column:last-child {
+    margin-right: 0;
+}
+
+
+/* Review Cards */
+
+.review-card {
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background-color: #fffefa;
+    border: 1px solid #e5e2dc;
+    border-radius: 20px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+
+/* Review Text */
+
+.review-card p {
+    color: #777777;
+    font-size: 13px;
+    line-height: 1.8;
+    margin: 0 0 18px;
+}
+
+
+/* Customer Details */
+
+.customer {
+    width: 100%;
+}
+
+
+/* Customer Picture */
+
+.customer img {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+
+/* Customer Name and Position */
+
+.customer-info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.customer-info h3 {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 0 5px;
+    color: #222222;
+}
+
+.customer-info span {
+    display: inline-block;
+    color: #999999;
+    font-size: 11px;
+}
+
+
+
+
